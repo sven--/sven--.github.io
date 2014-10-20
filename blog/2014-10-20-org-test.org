@@ -1,0 +1,26 @@
+#+TITLE: org test
+#+DATE: 2014-10-20
+#+SETUPFILE: ~/sys/lib/org-sty/octopress.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: 
+#+JEKYLL_PUBLISHED: true
+
+* 
+HI
+* LV1
+** LV2
+*** LV3
+**** LV4
+***** LV5
+****** LV6
+******* LV7
+******** LV8
+********* LV9
+********** LV10
+* table
+| 1 | 2 | 3 |
+|---+---+---|
+| a | b | c |
+| d | e | f |
+
+{{{more}}}

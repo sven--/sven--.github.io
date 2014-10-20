@@ -6,26 +6,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sven&#8211;.github.io/blog/2014/10/20/org-test/</loc>
+    <lastmod>2014-10-20T00:00:00+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sven&#8211;.github.io/blog/archives/</loc>
-    <lastmod>2014-10-20T03:47:39+09:00</lastmod>
+    <lastmod>2014-10-20T12:46:15+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://sven&#8211;.github.io/</loc>
-    <lastmod>2014-10-20T03:47:39+09:00</lastmod>
+    <lastmod>2014-10-20T12:46:15+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://sven&#8211;.github.io/super-awesome/</loc>
-    <lastmod>2014-10-20T03:47:39+09:00</lastmod>
+    <lastmod>2014-10-20T12:46:15+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://sven&#8211;.github.io/super-awesome/page.html</loc>
-    <lastmod>2014-10-20T03:47:39+09:00</lastmod>
+    <lastmod>2014-10-20T12:46:15+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
