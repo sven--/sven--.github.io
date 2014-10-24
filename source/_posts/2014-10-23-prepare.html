@@ -44,19 +44,38 @@ Dijkstra negative?
 <ul class="org-ul">
 <li>in-place sort?
 <ul class="org-ul">
-<li>Merge
+<li><i>Merge</i>
 </li>
-<li>Quick
+<li><i>Quick</i>
 </li>
-<li>Heap
+<li><b>Heap</b>
 </li>
-<li>Selection
+<li><b>Selection</b>
 </li>
-<li>Bubble
+<li><b>Bubble</b>
 </li>
-<li>Insertion
+<li><b>Insertion</b>
 </li>
-<li>Radix
+<li><i>Radix</i>
+</li>
+</ul>
+</li>
+
+<li>stable sort?
+<ul class="org-ul">
+<li><b>Merge</b>
+</li>
+<li><i>Quick</i>
+</li>
+<li><i>Heap</i>
+</li>
+<li><i>Selection</i>
+</li>
+<li><b>Bubble</b>
+</li>
+<li><b>Insertion</b>
+</li>
+<li><b>Radix</b>
 </li>
 </ul>
 </li>
@@ -749,7 +768,7 @@ How do we create a memory that gives the illusion of being large, cheap and fast
 </li>
 <li>Low density (6 transistor cells), higher power, expensive ($2000 to $5000 per GB in 2008)
 </li>
-<li>Static: content will last “forever” (as long as power is left on)
+<li>Static: content will last "forever" (as long as power is left on)
 </li>
 </ul>
 </li>
@@ -870,9 +889,268 @@ Time to pass the block to the requestor
 </li>
 </ul>
 
+
+<ul class="org-ul">
+<li>Average Memory Access factor &gt;= 3
+</li>
+<li>Average Cache Access Time (hit time, miss rate, miss penalty)
+</li>
+
+<li>Hit Time
+<ul class="org-ul">
+<li>Smaller cache
+</li>
+<li>Smaller blocks
+</li>
+<li>Use direct-mapped cache.
+</li>
+<li>Write buffers speed up write-through caches.
+</li>
+<li>Write - pipeline
+</li>
+</ul>
+</li>
+<li>Miss Penalty
+<ul class="org-ul">
+<li>Smaller block
+</li>
+<li>Use additional levels of cache
+</li>
+<li>multi-level
+</li>
+<li>dirty bit
+</li>
+<li>critical word first
+</li>
+</ul>
+</li>
+<li>Miss Rate
+<ul class="org-ul">
+<li>Bigger cache
+</li>
+<li>Set Associative Cache
+</li>
+<li>multi-level CPU cache
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>(2)Cache Miss Factor = 3
+</li>
+<li>treating with cache miss &gt;= 3
+</li>
+
+<li>Compulsory (cold start or process migration, first reference):
+<ul class="org-ul">
+<li>First access to a block, "cold" fact of life, not a whole lot you can do about it. If you are going to run "millions" of instruction, compulsory misses are insignificant
+</li>
+<li>Solution: increase block size (increases miss penalty; very large blocks could increase miss rate)
+</li>
+</ul>
+</li>
+<li>Capacity:
+<ul class="org-ul">
+<li>Cache cannot contain all blocks accessed by the program
+</li>
+<li>Solution: increase cache size (may increase access time)
+</li>
+</ul>
+</li>
+<li>Conflict (collision):
+<ul class="org-ul">
+<li>Multiple memory locations mapped to the same cache location
+</li>
+<li>Solution 1: increase cache size
+</li>
+<li>Solution 2: increase associativity (stay tuned) (may increase access time)
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> OS</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Both processes and threads are independent sequences of execution. 
+</p>
+<ul class="org-ul">
+<li>threads (of the same process) run in a shared memory space
+</li>
+<li>processes run in separate memory spaces.
+</li>
+</ul>
+
+<p>
+Threads differ from traditional multitasking operating system processes in that:
+</p>
+<ul class="org-ul">
+<li>processes are typically independent, while threads exist as subsets of a process
+</li>
+<li>processes carry considerably more state information than threads, whereas multiple threads within a process share process state as well as memory and other resources
+</li>
+<li>processes have separate address spaces, whereas threads share their address space
+</li>
+<li>processes interact only through system-provided inter-process communication mechanisms
+</li>
+<li>context switching between threads in the same process is typically faster than context switching between processes.
+</li>
+</ul>
+
+<p>
+Kernel-level threading
+User-level threading
+Hybrid threading
+</p>
+
+
+
+
+<ul class="org-ul">
+<li>Memory Alloctaion algorithms
+<ul class="org-ul">
+<li>best fit
+</li>
+<li>worst fit
+</li>
+<li>first fit
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>Necessary Deadlock
+<ul class="org-ul">
+<li>Mutual Exclusion : At least one resource must be held in a non-shareable mode.
+</li>
+</ul>
+</li>
+</ul>
+
+
+<p>
+<b>PREVENTION</b>  
+</p>
+<ul class="org-ul">
+<li>Hold and Wait | Resource Holding : A process is currently holding at least one resource and requesting additional resources which are being held by other processes.
+<ul class="org-ul">
+<li>requiring processes to request all the resources they will need before starting up
+</li>
+</ul>
+</li>
+<li>No Preemtion : a resource can be released only voluntarily by the process holding it, after that process has completed its task
+</li>
+<li>Circular wait : 
+<ul class="org-ul">
+<li>One way to avoid circular wait is to number all resources, and to require that processes request resources only in strictly increasing ( or decreasing ) order. 
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+<b>AVOIDANCE</b>
+Safe State
+Resource-Allocation Graph Algorithm
+Banker's Algorithm
+</p>
+
+
+<p>
+<b>RECOVERY</b>
+Process Termination
+Resource Preemption 
+</p>
+
+
+<ul class="org-ul">
+<li>Deadlock prevention or avoidance - Do not allow the system to get into a deadlocked state.
+</li>
+<li>Deadlock detection and recovery - Abort a process or preempt some resources when deadlocks are detected.
+</li>
+</ul>
+<p>
+prevent?
+avoid?
+recovery?
+</p>
+
+
+<p>
+DMA effect on system performance &gt;= 2
+swap space, existing file system or another partition? if another partition, how to increase performance?
+</p>
+
+<p>
+disk read speed
+</p>
+
+<p>
+Deadlock, 4 conditions? (\=&gt;? &lt;=? &lt;=&gt;?)
+prevent?
+avoid?
+recovery?
+</p>
+
+
+<ul class="org-ul">
+<li>Multi-core processor, change?
+<ul class="org-ul">
+<li>Interrupt handling
+</li>
+<li>Scheduling (PCB, queue, etc)
+</li>
+<li>Caching Policy
+</li>
+<li>File System
+</li>
+</ul>
+</li>
+</ul>
+
+
+<p>
+scheduling algorithm
+SSTF algorithm, Head movement length
+Compute bound program, I/O bound program, priority? 
+this algorith name?
+</p>
+
+<p>
+File IO
+</p>
+<ul class="org-ul">
+<li>read, write / memory mapped
+</li>
+</ul>
+<p>
+buffer cache
+</p>
+
+
+<p>
+THREAD / PROCESS
+access control list / access control matrix
+SCAN disk scheduling, indefinitely postpone?
+I/O bound, compute bound -&gt; which to dispatch first?
+</p>
+
+
+
 <p>
 
 </p>
-</div>
 </div>
 </div>
