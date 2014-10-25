@@ -1,6 +1,6 @@
 #+TITLE: tmp
 #+DATE: 2014-10-22
-#+SETUPFILE: ~/sys/lib/org-sty/octopress.org
+#+SETUPFILE: ~/Documents/coding/blog/sven--.github.io/setupfile.org
 #+JEKYLL_LAYOUT: post
 #+JEKYLL_CATEGORIES: 
 #+JEKYLL_PUBLISHED: true
