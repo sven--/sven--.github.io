@@ -4,7 +4,7 @@
 #+JEKYLL_LAYOUT: post
 #+JEKYLL_CATEGORIES: 
 #+JEKYLL_PUBLISHED: true
-#+OPTIONS: toc:nil tex:t
+#+OPTIONS: toc:nil tex:t ::t \n:t
 
 * HI
 * 1
@@ -107,6 +107,19 @@ a
 #+END_HTML
 4
 
+00
+11
+
+22
+
+
+33
+
+
+
+44
+
+
 * latex
 
 \begin{equation}
@@ -155,6 +168,30 @@ The radius of the sun is R_{sun} = 6.96 x 10^8 m.
 \Psi
 
 \Omega
+
+* 한글
+광야(이육사)
+
+까마득한 날에
+하늘이 처음 열리고
+어데 닭 우는 소리 들렸으랴
+
+모든 산맥들이
+바다를 연모해 휘달릴 때도
+차마 이곳을 범하던 못하였으리라
+
+끊임없는 광음을
+부즈런한 계절이 피어선지고
+큰 강물이 비로소 길을 열었다
+
+지금 눈 나리고
+매화향기 홀로 아득하니
+내 여기 가난한 노래의 씨를 뿌려라
+
+다시 천고의 뒤에
+백마 타고 오는 초인이 있어
+이 광야에서 목놓아 부르게 하리라
+
 
 * [[http://blog.paphus.com/blog/2012/08/01/introducing-octopress-blogging-for-org-mode/][example]]
 On an [[http://blog.paphus.com/blog/2012/07/21/octopress-and-org-mode/][earlier post]] I described a method for exporting [[http://www.gnu.org/software/emacs/][Emacs]] [[http://orgmode.org/][Org-Mode]] to Octopress. The main feature that simply exporting to HTML lacked was syntax highlighting. The method from my old post sadly was unreliable so I went back to the drawing boards and now I have a far better solution.
