@@ -13,7 +13,7 @@ I've looked through some examples below.
 - [[http://orgmode.org/worg/org-blog-wiki.html][org blogging tools]]
 - [[https://github.com/joshuaeckroth/cse3521-website][cse3521-website]]
 As a total newbie on web front-end programming, org-mode, elisp, and blogging, I
-- myself doesn't know exactly what I want.
+- myself doesn't know exactly which feature I want.
 - am hard to deal with problems when I stuck.
 Therefore, large and active community was especially important factor for me.
 
@@ -35,6 +35,8 @@ I followed [[http://octopress.org/docs/deploying/heroku/][instructions]] but som
 ** Github page
 It works.
 
-
+* Table Styling
+Had trouble with table styling, it didn't have any border. 
+I followed [[http://samwize.com/2012/09/24/octopress-table-stylesheet/][this]] to resolve.
 
 
