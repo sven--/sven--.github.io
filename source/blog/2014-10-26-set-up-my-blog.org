@@ -42,3 +42,10 @@ I followed [[http://samwize.com/2012/09/24/octopress-table-stylesheet/][this]] t
 * _posts directory
 Added .gitignore to ignore "source/_posts" directory.
 I think this directory is managed in "org-octopress" only, and Html files there can be recoverd from .org files.
+* org-octopress customization
+https://github.com/sven--/org-octopress
+
+* TODO smart-dash problem
+https://github.com/yoshinari-nomura/org-octopress/issues/15
+https://gist.github.com/sven--/7fc8aacfe0bb33577955
+not resolved yet.
