@@ -1,0 +1,40 @@
+#+TITLE: Set up my blog
+#+DATE: 2014-10-26
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: [programming, emacs, blog]
+#+JEKYLL_PUBLISHED: true
+
+I previously used my secondary Facebook account as a blog, but soon I felt need for another platform.
+I wanted to open my posting with my editor (emacs, org-mode) and update with my VCS (git).
+Simple static web site looked fine for me, as [[https://github.com/discourse/discourse][Discourse]] or [[https://disqus.com/][Disqus]] seems to provide satisfiable commenting feature.
+I've looked through some examples below.
+- [[http://orgmode.org/worg/org-web.html][org web sites]]
+- [[http://orgmode.org/worg/org-blog-wiki.html][org blogging tools]]
+- [[https://github.com/joshuaeckroth/cse3521-website][cse3521-website]]
+As a total newbie on web front-end programming, org-mode, elisp, and blogging, I
+- myself doesn't know exactly what I want.
+- am hard to deal with problems when I stuck.
+Therefore, large and active community was especially important factor for me.
+
+
+* Blogging tool
+** [[http://renard.github.io/o-blog-v2/][o-blog]]
+stuck with this issue : https://github.com/renard/o-blog/issues/116#issuecomment-59183307
+** [[http://octopress.org/][Octopress]] with [[https://github.com/yoshinari-nomura/org-octopress][org-octopress]]
+I also noticed [[http://blog.paphus.com/blog/2012/08/01/introducing-octopress-blogging-for-org-mode/][this post]] and tried it. 
+I'm not sure of pros and cons of each, but I followed upper link because
+- It looks simpler.
+- It is in Elpa package list, while the other is not.
+- More recent, more users (concerning github stars)
+- [[http://www.railsonmaui.com/blog/2014/03/05/octopress-setup-with-github-and-org-mode-v2/][newer post of this blog]] suggests to use it, while the [[http://www.railsonmaui.com/blog/2013/04/27/octopress-setup-with-github-and-org-mode/][older post of this blog]] suggests to use the other.
+
+* Deploying tool
+** Heroku
+I followed [[http://octopress.org/docs/deploying/heroku/][instructions]] but somehow it didn't work for me.
+** Github page
+It works.
+
+
+
+
