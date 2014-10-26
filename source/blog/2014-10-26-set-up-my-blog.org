@@ -39,4 +39,6 @@ It works.
 Had trouble with table styling, it didn't have any border. 
 I followed [[http://samwize.com/2012/09/24/octopress-table-stylesheet/][this]] to resolve.
 
-
+* _posts directory
+Added .gitignore to ignore "source/_posts" directory.
+I think this directory is managed in "org-octopress" only, and Html files there can be recoverd from .org files.
