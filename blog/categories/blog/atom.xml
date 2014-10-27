@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blog | sven's blog]]></title>
   <link href="http://sven--.github.io/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://sven--.github.io/"/>
-  <updated>2014-10-27T14:59:20+09:00</updated>
+  <updated>2014-10-27T15:01:18+09:00</updated>
   <id>http://sven&#8211;.github.io/</id>
   <author>
     <name><![CDATA[sven]]></name>
@@ -156,7 +156,6 @@ I think this directory is managed in &#8220;org-octopress&#8221; only, and Html 
 <div class="outline-text-2" id="text-6">
 <p>
 <a href="https://github.com/yoshinari-nomura/org-octopress/issues/15">https://github.com/yoshinari-nomura/org-octopress/issues/15</a>
-<a href="https://gist.github.com/sven--/7fc8aacfe0bb33577955">https://gist.github.com/sven&#8211;/7fc8aacfe0bb33577955</a>
 not resolved yet.
 <div><script src='https://gist.github.com/7fc8aacfe0bb33577955.js'></script>
 <noscript><pre><code>;minus/hypen/en-dash/em-dash
@@ -189,11 +188,6 @@ not resolved yet.
 (print (find-en-em-dash my-list)) ;found!
 (print (find-en-em-dash my-combine-plists)) ;found!
 (print (find-en-em-dash my-result)) ;found!
-</code></pre></noscript></div>
-
-<div><script src='https://gist.github.com/b3237d914680eafb3369.js'></script>
-<noscript><pre><code>cccc
-//　■□■□■□■□■□■□■□■□■□■□■□
 </code></pre></noscript></div>
 
 </p>
