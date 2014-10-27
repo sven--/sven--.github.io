@@ -47,5 +47,22 @@ https://github.com/sven--/org-octopress
 
 * TODO smart-dash problem
 https://github.com/yoshinari-nomura/org-octopress/issues/15
-https://gist.github.com/sven--/7fc8aacfe0bb33577955
 not resolved yet.
+{% gist 7fc8aacfe0bb33577955 %}
+
+* table
+| a | b | c |
+|---+---+---|
+| 2 | 4 | 6 |
+| 1 | 3 | 5 |
+
+* COMMENT
+{% gist 4321346 %}
+{{{gist(4321346)}}}
+{% gist 382223344569f523271b %}
+{% gist bcf4ecae74efa39d6605 %}
+{% gist b3237d914680eafb3369 %}
+{% gist 6507e8553f7cac286f9b %}
+
+
+
