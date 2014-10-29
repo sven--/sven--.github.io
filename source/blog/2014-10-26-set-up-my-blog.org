@@ -109,7 +109,5 @@ With this and some rvm works, I have same gem lists for each shell.
 {% gist 382223344569f523271b %}
 {% gist 6507e8553f7cac286f9b %}
 
-*Eshell does not support input redirection*
-http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands
 
 
