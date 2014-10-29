@@ -36,8 +36,22 @@ I followed [[http://octopress.org/docs/deploying/heroku/][instructions]] but som
 It works.
 
 * Table Styling
+| a | b | c |
+|---+---+---|
+| 2 | 4 | 6 |
+| 1 | 3 | 5 |
+
+| a | b | c |
+|---+---+---|
+| 2 | 4 | 6 |
+| 1 | 3 | 5 |
+
 Had trouble with table styling, it didn't have any border. 
-I followed [[http://samwize.com/2012/09/24/octopress-table-stylesheet/][this]] to resolve.
+I followed [[http://samwize.com/2012/09/24/octopress-table-stylesheet/][this]] to resolve. 
+Anyway, this styling doesn't work when table is placed after title. (here, "Table Styling")
+I'm total noob on front-end and I was only able to check with
+Chrome developer tool - magnifier, that the table is "screen.css", not "data-table.css".
+
 
 * _posts directory
 Added .gitignore to ignore "source/_posts" directory.
@@ -50,19 +64,52 @@ https://github.com/yoshinari-nomura/org-octopress/issues/15
 not resolved yet.
 {% gist 7fc8aacfe0bb33577955 %}
 
-* table
-| a | b | c |
-|---+---+---|
-| 2 | 4 | 6 |
-| 1 | 3 | 5 |
+
+* rake preview, eshell, text encoding
+While executing "rake preview" in eshell,
+there was some issue concerning text encoding.
+Problem rose up when I was inserting gist. 
+Below is example, first was OK and second made problem.
+
+{% gist bcf4ecae74efa39d6605 %}
+{% gist b3237d914680eafb3369 %}
+
+I'm not sure but if I remember correctly, error message was something like below.
+{% codeblock %}
+Liquid Exception: invalid byte sequence in US-ASCII in _posts/2014-10-26-set-up-my-blog.html/#excerpt
+jekyll 2.4.0 | Error:  invalid byte sequence in US-ASCII
+{% endcodeblock %}
+
+Can be easily resolved by below.
+
+http://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix
+{% codeblock lang:sh %}
+#!/bin/bash
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+{% endcodeblock %}
+
+* rake preview, rvm
+I had a problem which I cannot remember well.
+After some troubleshooting, it turned out it was matter of gem versions.
+I executed "gem list" in *M-x shell*, *M-x term*, *M-x eshell*, original terminal, respectively and it turned out to have 2 equiv. class.
+
+shell = term 
+
+original terminal = eshell
+
+(login shell?)
+I resolved it by
+https://github.com/senny/rvm.el
+With this and some rvm works, I have same gem lists for each shell.
 
 * COMMENT
 {% gist 4321346 %}
 {{{gist(4321346)}}}
 {% gist 382223344569f523271b %}
-{% gist bcf4ecae74efa39d6605 %}
-{% gist b3237d914680eafb3369 %}
 {% gist 6507e8553f7cac286f9b %}
 
+*Eshell does not support input redirection*
+http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands
 
 
