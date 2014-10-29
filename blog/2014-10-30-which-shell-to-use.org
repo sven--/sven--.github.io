@@ -1,0 +1,39 @@
+#+TITLE: Which shell to use
+#+DATE: 2014-10-30
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: 
+#+JEKYLL_PUBLISHED: true
+
+* eshell
+- autocomplete work
+- sshfs
+- kill & yank works
+- *Eshell does not support input redirection*
+- http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands
+- ssh hangs on!!!
+
+* zsh
+
+- M-x shell
+ - autocomplete doesn't work
+ - kill & yank works
+
+- M-x term (ansi-term)
+ - autocomplete works
+ - kill & yank doesn't work
+
+
+- Original term/shell
+ - no integration with emacs
+
+* fish
+
+* 
+https://snarfed.org/why_i_run_shells_inside_emacs
+http://stackoverflow.com/questions/4683256/tab-completion-in-emacs-shell-mode-ssh-sessions
+
+shell-resync-dirs
+
+
+{{{more}}}
