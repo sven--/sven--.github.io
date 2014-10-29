@@ -119,6 +119,19 @@ Compared to Discourse -> not open source, not full control?
 
 Can't find "short url" after page goes... sucks!
 
+http://hal.case.edu/~rrc/blog/2013/09/29/disqus-comments-not-visible/
+
+*CANNOT SET WEBSITE URL (sven--.github.io) IN SETTINGS - GENERAL, IT REJECTS STRING WITH HYPEN.*
+
+I don't see what the fuck is wrong. 
+Error message is "Enter a valid URL." and that's all.
+- abcd-.com -> Invalid
+- -abcd.com -> Valid
+- abc-d.com -> Valid
+What should I do with my URL? (sven--.github.io)
+give up
+
+
 * TODO break line
 org mode? html?
 * TODO plain text more fancy formatting

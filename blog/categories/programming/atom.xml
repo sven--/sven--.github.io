@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programming | sven's blog]]></title>
   <link href="http://sven--.github.io/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://sven--.github.io/"/>
-  <updated>2014-10-30T03:21:49+09:00</updated>
+  <updated>2014-10-30T03:58:27+09:00</updated>
   <id>http://sven&#8211;.github.io/</id>
   <author>
     <name><![CDATA[sven]]></name>
@@ -376,6 +376,31 @@ Compared to Discourse -&gt; not open source, not full control?
 
 <p>
 Can&#8217;t find &#8220;short url&#8221; after page goes&#x2026; sucks!
+</p>
+
+<p>
+<a href="http://hal.case.edu/~rrc/blog/2013/09/29/disqus-comments-not-visible/">http://hal.case.edu/~rrc/blog/2013/09/29/disqus-comments-not-visible/</a>
+</p>
+
+<p>
+<b>CANNOT SET WEBSITE URL (sven&#x2013;.github.io) IN SETTINGS - GENERAL, IT REJECTS STRING WITH HYPEN.</b>
+</p>
+
+<p>
+I don&#8217;t see what the fuck is wrong. 
+Error message is &#8220;Enter a valid URL.&#8221; and that&#8217;s all.
+</p>
+<ul class="org-ul">
+<li>abcd-.com -&gt; Invalid
+</li>
+<li>-abcd.com -&gt; Valid
+</li>
+<li>abc-d.com -&gt; Valid
+</li>
+</ul>
+<p>
+What should I do with my URL? (sven&#x2013;.github.io)
+give up
 </p>
 </div>
 </div>

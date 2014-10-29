@@ -5,7 +5,8 @@
 #+JEKYLL_CATEGORIES: 
 #+JEKYLL_PUBLISHED: true
 
-* eshell
+* with emacs
+** eshell
 - autocomplete work
 - sshfs
 - kill & yank works
@@ -13,8 +14,7 @@
 - http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands
 - ssh hangs on!!!
 
-* zsh
-
+** others
 - M-x shell
  - autocomplete doesn't work
  - kill & yank works
@@ -27,7 +27,9 @@
 - Original term/shell
  - no integration with emacs
 
-* fish
+** use another terminal
+
+* zsh or fish?
 
 * COMMENT
 https://snarfed.org/why_i_run_shells_inside_emacs
