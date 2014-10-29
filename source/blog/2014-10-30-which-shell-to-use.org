@@ -6,26 +6,26 @@
 #+JEKYLL_PUBLISHED: true
 
 * eshell
-autocomplete work
-sshfs
-kill & yank works
-*Eshell does not support input redirection*
-http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands
-ssh hangs on!!!
+- autocomplete work
+- sshfs
+- kill & yank works
+- *Eshell does not support input redirection*
+- http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands
+- ssh hangs on!!!
 
 * zsh
 
 - M-x shell
-autocomplete doesn't work
-kill & yank works
+ - autocomplete doesn't work
+ - kill & yank works
 
 - M-x term (ansi-term)
-autocomplete works
-kill & yank doesn't work
+ - autocomplete works
+ - kill & yank doesn't work
 
 
 - Original term/shell
-no integration with emacs
+ - no integration with emacs
 
 * fish
 
