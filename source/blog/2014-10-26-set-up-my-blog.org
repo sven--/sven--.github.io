@@ -103,6 +103,26 @@ I resolved it by
 https://github.com/senny/rvm.el
 With this and some rvm works, I have same gem lists for each shell.
 
+* TODO comment?
+** Discourse
+http://www.railsonmaui.com/blog/2014/09/27/updating-to-jekyll-2-and-discourse-for-comments/
+http://eviltrout.com/2014/01/22/embedding-discourse.html
+
+Seems a bit difficult and I might need to pay. (digital ocean)
+
+Looked for AWS but free plan only goes for 1 year.
+
+Discourse site's github authorization doesn't work properly... sucks!
+
+** Disqus
+Compared to Discourse -> not open source, not full control?
+
+Can't find "short url" after page goes... sucks!
+
+* TODO break line
+org mode? html?
+* TODO plain text more fancy formatting
+
 * COMMENT
 {% gist 4321346 %}
 {{{gist(4321346)}}}
