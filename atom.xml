@@ -4,7 +4,7 @@
   <title><![CDATA[sven's blog]]></title>
   <link href="http://sven--.github.io/atom.xml" rel="self"/>
   <link href="http://sven--.github.io/"/>
-  <updated>2014-10-30T02:35:59+09:00</updated>
+  <updated>2014-10-30T03:21:49+09:00</updated>
   <id>http://sven&#8211;.github.io/</id>
   <author>
     <name><![CDATA[sven]]></name>
@@ -76,25 +76,6 @@
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">fish</h2>
 </div>
-
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4"></h2>
-<div class="outline-text-2" id="text-4">
-<p>
-<a href="https://snarfed.org/why_i_run_shells_inside_emacs">https://snarfed.org/why_i_run_shells_inside_emacs</a>
-<a href="http://stackoverflow.com/questions/4683256/tab-completion-in-emacs-shell-mode-ssh-sessions">http://stackoverflow.com/questions/4683256/tab-completion-in-emacs-shell-mode-ssh-sessions</a>
-</p>
-
-<p>
-shell-resync-dirs
-</p>
-
-
-<p>
-<!-- more -->
-</p>
-</div>
-</div>
 ]]></content>
   </entry>
   
@@ -111,7 +92,7 @@ I haven&#8217;t yet made concrete plan on how to manage this blog.
 <h2 id="sec-1">Purpose</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-I think there is quite big gap between these two : 
+I think there is quite big gap between those two : 
 </p>
 <ul class="org-ul">
 <li>As a personal memo
@@ -120,7 +101,7 @@ I think there is quite big gap between these two :
 </li>
 </ul>
 <p>
-I&#8217;m considering to use this blog as former purpose mostly, and make a special <b>category</b> for latter use.
+I&#8217;m considering to use this blog with former purpose mostly, and make a special <b>category</b> for latter use.
 </p>
 </div>
 </div>
@@ -440,6 +421,57 @@ I resolved it by
 With this and some rvm works, I have same gem lists for each shell.
 </p>
 </div>
+</div>
+
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9"><span class="todo TODO">TODO</span> comment?</h2>
+<div class="outline-text-2" id="text-9">
+</div><div id="outline-container-sec-9-1" class="outline-3">
+<h3 id="sec-9-1">Discourse</h3>
+<div class="outline-text-3" id="text-9-1">
+<p>
+<a href="http://www.railsonmaui.com/blog/2014/09/27/updating-to-jekyll-2-and-discourse-for-comments/">http://www.railsonmaui.com/blog/2014/09/27/updating-to-jekyll-2-and-discourse-for-comments/</a>
+<a href="http://eviltrout.com/2014/01/22/embedding-discourse.html">http://eviltrout.com/2014/01/22/embedding-discourse.html</a>
+</p>
+
+<p>
+Seems a bit difficult and I might need to pay. (digital ocean)
+</p>
+
+<p>
+Looked for AWS but free plan only goes for 1 year.
+</p>
+
+<p>
+Discourse site&#8217;s github authorization doesn&#8217;t work properly&#x2026; sucks!
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-9-2" class="outline-3">
+<h3 id="sec-9-2">Disqus</h3>
+<div class="outline-text-3" id="text-9-2">
+<p>
+Compared to Discourse -&gt; not open source, not full control?
+</p>
+
+<p>
+Can&#8217;t find &#8220;short url&#8221; after page goes&#x2026; sucks!
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-10" class="outline-2">
+<h2 id="sec-10"><span class="todo TODO">TODO</span> break line</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+org mode? html?
+</p>
+</div>
+</div>
+<div id="outline-container-sec-11" class="outline-2">
+<h2 id="sec-11"><span class="todo TODO">TODO</span> plain text more fancy formatting</h2>
 </div>
 ]]></content>
   </entry>
