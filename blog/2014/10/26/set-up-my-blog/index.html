@@ -170,12 +170,80 @@ It works.
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">Table Styling</h2>
 <div class="outline-text-2" id="text-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">a</th>
+<th scope="col" class="right">b</th>
+<th scope="col" class="right">c</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">2</td>
+<td class="right">4</td>
+<td class="right">6</td>
+</tr>
+
+<tr>
+<td class="right">1</td>
+<td class="right">3</td>
+<td class="right">5</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">a</th>
+<th scope="col" class="right">b</th>
+<th scope="col" class="right">c</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">2</td>
+<td class="right">4</td>
+<td class="right">6</td>
+</tr>
+
+<tr>
+<td class="right">1</td>
+<td class="right">3</td>
+<td class="right">5</td>
+</tr>
+</tbody>
+</table>
+
 <p>
 Had trouble with table styling, it didn&#8217;t have any border. 
-I followed <a href="http://samwize.com/2012/09/24/octopress-table-stylesheet/">this</a> to resolve.
+I followed <a href="http://samwize.com/2012/09/24/octopress-table-stylesheet/">this</a> to resolve. 
+Anyway, this styling doesn&#8217;t work when table is placed after title. (here, &#8220;Table Styling&#8221;)
+I&#8217;m total noob on front-end and I was only able to check with
+Chrome developer tool - magnifier, that the table is &#8220;screen.css&#8221;, not &#8220;data-table.css&#8221;.
 </p>
 </div>
 </div>
+
 
 <div id="outline-container-sec-4" class="outline-2">
 <h2 id="sec-4">_posts directory</h2>
@@ -238,40 +306,76 @@ not resolved yet.
 </div>
 </div>
 
+
 <div id="outline-container-sec-7" class="outline-2">
-<h2 id="sec-7">table</h2>
+<h2 id="sec-7">rake preview, eshell, text encoding</h2>
 <div class="outline-text-2" id="text-7">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<p>
+While executing &#8220;rake preview&#8221; in eshell,
+there was some issue concerning text encoding.
+Problem rose up when I was inserting gist. 
+Below is example, first was OK and second made problem.
+</p>
 
+<p>
+<div><script src='https://gist.github.com/bcf4ecae74efa39d6605.js'></script>
+<noscript><pre><code>cccc</code></pre></noscript></div>
 
-<colgroup>
-<col  class="right" />
+<div><script src='https://gist.github.com/b3237d914680eafb3369.js'></script>
+<noscript><pre><code>cccc
+//　■□■□■□■□■□■□■□■□■□■□■□
+</code></pre></noscript></div>
 
-<col  class="right" />
+</p>
 
-<col  class="right" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="right">a</th>
-<th scope="col" class="right">b</th>
-<th scope="col" class="right">c</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="right">2</td>
-<td class="right">4</td>
-<td class="right">6</td>
-</tr>
+<p>
+I&#8217;m not sure but if I remember correctly, error message was something like below.
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Liquid Exception: invalid byte sequence in US-ASCII in _posts/2014-10-26-set-up-my-blog.html/#excerpt
+</span><span class='line'>jekyll 2.4.0 | Error:  invalid byte sequence in US-ASCII</span></code></pre></td></tr></table></div></figure>
+</p>
 
-<tr>
-<td class="right">1</td>
-<td class="right">3</td>
-<td class="right">5</td>
-</tr>
-</tbody>
-</table>
+<p>
+Can be easily resolved by below.
+</p>
+
+<p>
+<a href="http://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix">http://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix</a>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'><span class="nb">export </span><span class="nv">LC_ALL</span><span class="o">=</span>en_US.UTF-8
+</span><span class='line'><span class="nb">export </span><span class="nv">LANG</span><span class="o">=</span>en_US.UTF-8
+</span></code></pre></td></tr></table></div></figure>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8">rake preview, rvm</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+I had a problem which I cannot remember well.
+After some troubleshooting, it turned out it was matter of gem versions.
+I executed &#8220;gem list&#8221; in <b>M-x shell</b>, <b>M-x term</b>, <b>M-x eshell</b>, original terminal, respectively and it turned out to have 2 equiv. class.
+</p>
+
+<p>
+shell = term 
+</p>
+
+<p>
+original terminal = eshell
+</p>
+
+<p>
+(login shell?)
+I resolved it by
+<a href="https://github.com/senny/rvm.el">https://github.com/senny/rvm.el</a>
+With this and some rvm works, I have same gem lists for each shell.
+</p>
 </div>
 </div>
 </div>
