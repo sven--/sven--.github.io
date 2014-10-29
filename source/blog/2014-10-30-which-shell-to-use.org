@@ -29,7 +29,7 @@
 
 * fish
 
-* 
+* COMMENT
 https://snarfed.org/why_i_run_shells_inside_emacs
 http://stackoverflow.com/questions/4683256/tab-completion-in-emacs-shell-mode-ssh-sessions
 
