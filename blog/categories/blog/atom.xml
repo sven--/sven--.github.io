@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blog | sven's blog]]></title>
   <link href="http://sven--.github.io/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://sven--.github.io/"/>
-  <updated>2014-11-02T08:17:44+09:00</updated>
+  <updated>2014-11-02T08:29:36+09:00</updated>
   <id>http://sven&#8211;.github.io/</id>
   <author>
     <name><![CDATA[sven]]></name>
@@ -421,6 +421,19 @@ org mode? html?
 
 <div id="outline-container-sec-11" class="outline-2">
 <h2 id="sec-11"><span class="todo TODO">TODO</span> plain text more fancy formatting</h2>
+</div>
+
+
+
+
+<div id="outline-container-sec-12" class="outline-2">
+<h2 id="sec-12">Theme</h2>
+<div class="outline-text-2" id="text-12">
+<p>
+Using <a href="https://github.com/lucaslew/whitespace">whitespace</a> theme.
+Tried several other themes, but most of their styling was broken in some feature. (table, gist, math, etc) 
+</p>
+</div>
 </div>
 
 ]]></content>
