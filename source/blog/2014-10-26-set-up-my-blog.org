@@ -136,6 +136,10 @@ give up
 org mode? html?
 * TODO plain text more fancy formatting
 
+* Theme
+Using [[https://github.com/lucaslew/whitespace][whitespace]] theme.
+Tried several other themes, but most of their styling was broken in some feature. (table, gist, math, etc) 
+
 * COMMENT
 {% gist 4321346 %}
 {{{gist(4321346)}}}
