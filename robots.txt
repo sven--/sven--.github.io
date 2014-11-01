@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://sven&#8211;.github.io/sitemap.xml 
+Sitemap: http://sven&#8211;.github.io/sitemap.xml

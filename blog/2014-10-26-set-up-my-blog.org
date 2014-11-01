@@ -2,7 +2,7 @@
 #+DATE: 2014-10-26
 #+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
 #+JEKYLL_LAYOUT: post
-#+JEKYLL_CATEGORIES: [programming, emacs, blog]
+#+JEKYLL_CATEGORIES: [emacs, blog]
 #+JEKYLL_PUBLISHED: true
 
 I previously used my secondary Facebook account as a blog, but soon I felt need for another platform.
