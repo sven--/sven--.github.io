@@ -28,6 +28,8 @@ I'm not sure of pros and cons of each, but I followed upper link because
 - It is in Elpa package list, while the other is not.
 - More recent, more users (concerning github stars)
 - [[http://www.railsonmaui.com/blog/2014/03/05/octopress-setup-with-github-and-org-mode-v2/][newer post of this blog]] suggests to use it, while the [[http://www.railsonmaui.com/blog/2013/04/27/octopress-setup-with-github-and-org-mode/][older post of this blog]] suggests to use the other.
+** Jekyll
+It seems also reasonable to use pure Jekyll, but I haven't tried.
 
 * Deploying tool
 ** Heroku
