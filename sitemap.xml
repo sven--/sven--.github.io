@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://sven&#8211;.github.io/blog/2014/11/02/%ED%95%9C%EA%B8%80-%EC%8B%A4%ED%97%98/</loc>
-    <lastmod>2014-11-02T00:00:00+09:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sven&#8211;.github.io/blog/2014/11/02/yea!-i&#8217;m-pikachu!/</loc>
     <lastmod>2014-11-02T00:00:00+09:00</lastmod>
     <priority>0.8</priority>
@@ -42,13 +37,13 @@
   </url>
   <url>
     <loc>http://sven&#8211;.github.io/blog/archives/</loc>
-    <lastmod>2014-11-02T23:29:11+09:00</lastmod>
+    <lastmod>2014-11-02T23:31:51+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://sven&#8211;.github.io/</loc>
-    <lastmod>2014-11-02T23:29:11+09:00</lastmod>
+    <lastmod>2014-11-02T23:31:51+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

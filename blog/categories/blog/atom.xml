@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blog | sven's blog]]></title>
   <link href="http://sven--.github.io/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://sven--.github.io/"/>
-  <updated>2014-11-02T23:29:11+09:00</updated>
+  <updated>2014-11-02T23:31:51+09:00</updated>
   <id>http://sven&#8211;.github.io/</id>
   <author>
     <name><![CDATA[sven]]></name>
@@ -285,39 +285,7 @@ I think this directory is managed in &#8220;org-octopress&#8221; only, and Html 
 <p>
 <a href="https://github.com/yoshinari-nomura/org-octopress/issues/15">https://github.com/yoshinari-nomura/org-octopress/issues/15</a>
 not resolved yet.
-<div><script src='https://gist.github.com/7fc8aacfe0bb33577955.js'></script>
-<noscript><pre><code>;minus/hypen/en-dash/em-dash
-;−/-/–/—
-;hex-dump
-;e2 88 92/ 2d/ e2 80 93/ e2 80 94/
-;problem : two or more hypen changes to en-dash or em-dash
-(defun find-en-em-dash (var)
-  (string-match &quot;&amp;#x201&quot; (prin1-to-string var)))
-(defconst my-post-dir
-  &quot;~/hi-------.org&quot;)
-(write-region &quot;&quot; nil my-post-dir)
-(defconst my-plist
-  (org-jekyll-property-list my-post-dir))
-(defconst my-backend
-  (if (symbolp &#39;jekyll) (org-export-get-backend &#39;jekyll) &#39;jekyll))
-(defconst my-list
-  (list :back-end my-backend
-        :translate-alist (org-export-get-all-transcoders my-backend)
-        :exported-data (make-hash-table :test &#39;eq :size 401)))
-(defconst my-combine-plists
-  (org-combine-plists my-plist my-list))
-(print (find-en-em-dash my-list)) ;nil
-(print (find-en-em-dash my-combine-plists)) ;nil
-(defconst my-result
-  (org-export-data my-post-dir my-combine-plists))
-(print (find-en-em-dash my-post-dir)) ;nil
-(print (find-en-em-dash my-plist)) ;nil
-(print (find-en-em-dash my-backend)) ;nil
-(print (find-en-em-dash my-list)) ;found!
-(print (find-en-em-dash my-combine-plists)) ;found!
-(print (find-en-em-dash my-result)) ;found!
-</code></pre></noscript></div>
-
+{% gist 7fc8aacfe0bb33577955 %}
 </p>
 </div>
 </div>
@@ -336,22 +304,16 @@ Below is example, first was OK and second made problem.
 </p>
 
 <p>
-<div><script src='https://gist.github.com/bcf4ecae74efa39d6605.js'></script>
-<noscript><pre><code>cccc</code></pre></noscript></div>
-
-<div><script src='https://gist.github.com/b3237d914680eafb3369.js'></script>
-<noscript><pre><code>cccc
-//　■□■□■□■□■□■□■□■□■□■□■□
-</code></pre></noscript></div>
-
+{% gist bcf4ecae74efa39d6605 %}
+{% gist b3237d914680eafb3369 %}
 </p>
 
 <p>
 I&#8217;m not sure but if I remember correctly, error message was something like below.
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Liquid Exception: invalid byte sequence in US-ASCII in _posts/2014-10-26-set-up-my-blog.html/#excerpt
-</span><span class='line'>jekyll 2.4.0 | Error:  invalid byte sequence in US-ASCII</span></code></pre></td></tr></table></div></figure>
+{% codeblock %}
+Liquid Exception: invalid byte sequence in US-ASCII in _posts/2014-10-26-set-up-my-blog.html/#excerpt
+jekyll 2.4.0 | Error:  invalid byte sequence in US-ASCII
+{% endcodeblock %}
 </p>
 
 <p>
@@ -360,13 +322,11 @@ Can be easily resolved by below.
 
 <p>
 <a href="http://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix">http://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix</a>
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'><span class="nb">export </span><span class="nv">LC_ALL</span><span class="o">=</span>en_US.UTF-8
-</span><span class='line'><span class="nb">export </span><span class="nv">LANG</span><span class="o">=</span>en_US.UTF-8
-</span></code></pre></td></tr></table></div></figure>
+{% codeblock lang:sh %}
+#!/bin/bash
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+{% endcodeblock %}
 </p>
 </div>
 </div>
