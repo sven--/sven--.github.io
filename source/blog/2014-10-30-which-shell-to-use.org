@@ -30,7 +30,6 @@ If you want to write shell scripts in Eshell, don't; either write an elisp libra
 - M-x term (ansi-term)
  - autocomplete works
  - +kill & yank doesn't work+ Actually it works, [[http://stackoverflow.com/questions/2886184/copy-paste-in-emacs-ansi-term-shell][here]].
- - *abc* =def= _ghi_ -jkl- 
 
 * in terminal, 
 ** zsh or fish?

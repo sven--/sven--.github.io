@@ -5,7 +5,7 @@
 #+JEKYLL_CATEGORIES: 
 #+JEKYLL_PUBLISHED: true
 
-* 
-http://lists.gnu.org/archive/html/help-gnu-emacs/2014-11/msg00022.html
+* http://lists.gnu.org/archive/html/help-gnu-emacs/2014-11/msg00022.html
+* http://www.emacswiki.org/TreeMode
 
 {{{more}}}
