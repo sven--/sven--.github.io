@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Shell | sven's blog]]></title>
   <link href="http://sven--.github.io/blog/categories/shell/atom.xml" rel="self"/>
   <link href="http://sven--.github.io/"/>
-  <updated>2014-11-02T23:32:22+09:00</updated>
+  <updated>2014-11-03T00:07:09+09:00</updated>
   <id>http://sven&#8211;.github.io/</id>
   <author>
     <name><![CDATA[sven]]></name>
@@ -41,13 +41,16 @@
 </li>
 </ul>
 <p>
-{% codeblock %}
-Eshell is not a replacement for system shells such as bash or zsh. 
-Use Eshell when you want to move text between Emacs and external processes; 
-if you only want to pipe output from one external process to another (and then another, and so on), use a system shell, 
-because Emacs&#8217;s IO system is buffer oriented, not stream oriented, and is very inefficient at such tasks. 
-If you want to write shell scripts in Eshell, don&#8217;t; either write an elisp library or use a system shell. 
-{% endcodeblock %}
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Eshell is not a replacement for system shells such as bash or zsh. 
+</span><span class='line'>Use Eshell when you want to move text between Emacs and external processes; 
+</span><span class='line'>if you only want to pipe output from one external process to another (and then another, and so on), use a system shell, 
+</span><span class='line'>because Emacs's IO system is buffer oriented, not stream oriented, and is very inefficient at such tasks. 
+</span><span class='line'>If you want to write shell scripts in Eshell, don't; either write an elisp library or use a system shell.</span></code></pre></td></tr></table></div></figure>
 </p>
 </div>
 </div>
