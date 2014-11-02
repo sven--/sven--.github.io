@@ -1,0 +1,10 @@
+#+TITLE: Church numeral in Coq?
+#+DATE: 2014-11-02
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: [coq, CS]
+#+JEKYLL_PUBLISHED: true
+
+* 
+
+{{{more}}}
