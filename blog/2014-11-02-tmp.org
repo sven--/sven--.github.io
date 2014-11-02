@@ -1,0 +1,10 @@
+#+TITLE: tmp
+#+DATE: 2014-11-02
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: 
+#+JEKYLL_PUBLISHED: true
+
+* 
+
+{{{more}}}
