@@ -2,7 +2,7 @@
 #+DATE: 2014-10-30
 #+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
 #+JEKYLL_LAYOUT: post
-#+JEKYLL_CATEGORIES: 
+#+JEKYLL_CATEGORIES: [emacs, shell]
 #+JEKYLL_PUBLISHED: true
 
 * with emacs
