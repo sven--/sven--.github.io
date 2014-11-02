@@ -1,0 +1,13 @@
+#+TITLE: Started subscribing mailing lists.
+#+DATE: 2014-11-02
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: [coq, emacs]
+#+JEKYLL_PUBLISHED: true
+
+* Coq
+https://sympa.inria.fr/sympa/info/coq-club
+* Emacs
+http://lists.gnu.org/archive/html/help-gnu-emacs/
+
+{{{more}}}
