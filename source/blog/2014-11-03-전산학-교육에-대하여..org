@@ -1,0 +1,24 @@
+#+TITLE: 전산학 교육에 대하여.
+#+DATE: 2014-11-03
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: [생각]
+#+JEKYLL_PUBLISHED: true
+
+* Layer
+어느 레이어부터 가르치던 무엇을 신뢰하고 있는지를 명확히 말할 수 있고 그 이후의 것은 쌓아올릴 수 있게.
+이러면 이렇다라는 것의 나열에서 가능한 plausible explanation 을 각자 우연찮게 찾아내고 별다른 논의 없이 넘어가는 것이 정말 너무 싫다.
+C 의 좋은 교육은 언어 자체의 BNF 를 포함해서 양이 많으니까 초심자에게는 어려울 것 같고, 
+그것보다 scheme 같은 거에서 정의해서 쌓아올리는게 본질적으로 같으면서 양도 적고 직관적이고 흥미롭지 않나.
+
+* induction, deduction
+- induction : 과학
+- deduction : 수학
+- CS?
+세포 하나하나는 deductive reasoning 인데 결국 생명체 레벨에서는 inductive reasoning 을 쓰게 되는 것은 뭐 현실적인 한계로 어쩔 수 없다고 쳐도 세포를 공부할 때는 그에 맞는 방법을 쓸 수 있지 않나. 
+그리고 앞의 "현실적인 한계"라는 것도 점점 부숴나가야 하는 것. 
+소프트웨어 테스팅이 induction 이라면 (에러가 안잡혔으니 대충 맞지 않을까) 
+컴파일러 정형 검증 같은 것은 deduction 
+(맞다. 아니면 논리학이 틀렸거나, coq 의 작은 핵심 엔진을 검증한 사람들이 우연의 일치로 모두 한결같이 바보거나 (de bruijn criterion), 전자과에서 0/1 구분을 잘 못해줬거나, os 가 잘못됬거나 등등 뭐 많긴 하지만 종국에 검증 가능한 문제들을 빼고 인간끼리 합의가 필요한 부분은 굉장히 적어짐)
+
+{{{more}}}
