@@ -1,0 +1,21 @@
+#+TITLE: Yea! I'm Pikachu!
+#+DATE: 2014-11-02
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: [피카추]
+#+JEKYLL_PUBLISHED: true
+
+* 야! 나는 피카추다!
+** COMMENT
+[[/images/pokemonsterV.png]]
+<img src="/images/pokemonsterV.png"/>
+doesn't work
+
+** COMMENT
+post title, Korean title doesn't work?
+
+** 
+{% img left /images/pokemonsterV.png 350 350 'image' 'images' %}
+
+
+{{{more}}}
