@@ -11,6 +11,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sven&#8211;.github.io/blog/2014/11/02/started-subscribing-mailing-lists./</loc>
+    <lastmod>2014-11-02T00:00:00+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sven&#8211;.github.io/blog/2014/11/02/church-numeral-in-coq%3F/</loc>
     <lastmod>2014-11-02T00:00:00+09:00</lastmod>
     <priority>0.8</priority>
@@ -32,13 +37,13 @@
   </url>
   <url>
     <loc>http://sven&#8211;.github.io/blog/archives/</loc>
-    <lastmod>2014-11-02T22:38:49+09:00</lastmod>
+    <lastmod>2014-11-02T23:02:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://sven&#8211;.github.io/</loc>
-    <lastmod>2014-11-02T22:38:49+09:00</lastmod>
+    <lastmod>2014-11-02T23:02:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
