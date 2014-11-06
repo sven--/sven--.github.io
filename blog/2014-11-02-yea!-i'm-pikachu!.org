@@ -15,7 +15,11 @@ doesn't work
 post title, Korean title doesn't work?
 
 ** AB
+*** CD
+
 {% img left /images/pokemonsterV.png 350 350 'image' 'images' %}
+
+Scary Pikachu.
 
 S
 
@@ -35,14 +39,8 @@ K
 
 A
 
-C
-
-H
-
-U
-
 * EFGH
-{% youtube Rm5tfjIX-SY %}
+{% youtube QWq0bSvc31A %}
 
 Youtube.
 
