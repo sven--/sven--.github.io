@@ -1,0 +1,20 @@
+#+TITLE: Is Emacs Dying
+#+DATE: 2014-11-08
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: 
+#+JEKYLL_PUBLISHED: true
+
+- [[http://www.google.com/trends/explore#q=sublime%20text%2C%20emacs%2C%20vim&cmpt=q][Google Trends]]
+- [[http://thread.gmane.org/gmane.emacs.devel/126892][Efforts to attract more users?]]
+- [[http://lists.gnu.org/archive/html/help-gnu-emacs/2012-06/msg00201.html][Emacs users a dying breed?]]
+  - mail - {{{link(2014-11-02-tree-structure-in-emacs?,tree?)}}}, [[http://en.wikipedia.org/wiki/Conversation_threading][Conversation_threading]]
+
+
+* COMMENT A
+- {% gist bcf4ecae74efa39d6605 %}
+- {% post_url 2014-11-08-Is-Emacs-Dying %}
+- [link to this post]({% post_url 2014-11-08-is-emacs-dying %})
+- {{{link(2014-11-08-is-emacs-dying,is emacs dying)}}}
+
+{{{more}}}
