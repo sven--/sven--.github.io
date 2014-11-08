@@ -5,29 +5,33 @@
 #+JEKYLL_CATEGORIES: 
 #+JEKYLL_PUBLISHED: false
 
-* TODO 논글
-** TODO 판의미로
+* 논글
+** DONE 판의미로
 ** TODO 피로사회
+** TODO 센터연락
 
-* TODO 리더십
+* 리더십
 ** TODO 입금
 ** TODO 연락
 
-* TODO 테스팅 숙제
+* 테스팅 숙제
+** TODO HW4
 
-* TODO 전프
+* 전프
 ** TODO 사진
 ** TODO 로봇코딩
 
-* TODO 여행
+* 여행
 ** TODO 여행지 정하기
 ** TODO 비행기 예매
 
-* TODO 윤리 및 안전
+* 윤리 및 안전
 
-* TODO 방세
-** TODO 입금
-** TODO 연락
+* 방세
+** DONE 입금
+** DONE 연락
+
+* TODO 교수님 메일답장
 
 
 {{{more}}}
