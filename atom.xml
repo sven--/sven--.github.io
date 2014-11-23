@@ -4,7 +4,7 @@
   <title><![CDATA[sven's blog]]></title>
   <link href="http://sven--.github.io/atom.xml" rel="self"/>
   <link href="http://sven--.github.io/"/>
-  <updated>2014-11-09T06:04:19+09:00</updated>
+  <updated>2014-11-23T16:48:07+09:00</updated>
   <id>http://sven&#8211;.github.io/</id>
   <author>
     <name><![CDATA[sven]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Outsmarting Users]]></title>
+    <link href="http://sven--.github.io/blog/2014/11/23/outsmarting-users/"/>
+    <updated>2014-11-23T00:00:00+09:00</updated>
+    <id>http://sven&#8211;.github.io/blog/2014/11/23/outsmarting-users</id>
+    <content type="html"><![CDATA[<p>
+Jekyll - &#8220;It doesn&#8217;t try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration.&#8221;
+난 이 문장이 정말 마음에 든다.
+Youtube - &#8220;To give you the best viewing experience possible on your computer, YouTube adjusts the quality of your video stream from standard definition (such as 240p or 360p) to high definition (720p or 1080p), based on the speed of your Internet connection (bandwidth).&#8221;
+내가 동영상의 퀄리티보다 끊김없는 재생을 중시할 것이라는 오만한 가정은 할 수 있다고 치더라도 내게 그걸 설정할 수 있게는 해줘야 될 것 아닌가?
+</p>
+
+<p>
+<!-- more -->
+</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Is Emacs Dying]]></title>
