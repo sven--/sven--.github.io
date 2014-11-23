@@ -1,0 +1,13 @@
+#+TITLE: Outsmarting users
+#+DATE: 2014-11-23
+#+SETUPFILE: ~/Documents/coding/blog/octopress/setupfile.org
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: 
+#+JEKYLL_PUBLISHED: true
+
+Jekyll - "It doesn't try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration."
+난 이 문장이 정말 마음에 든다.
+Youtube - "To give you the best viewing experience possible on your computer, YouTube adjusts the quality of your video stream from standard definition (such as 240p or 360p) to high definition (720p or 1080p), based on the speed of your Internet connection (bandwidth)."
+내가 동영상의 퀄리티보다 끊김없는 재생을 중시할 것이라는 오만한 가정은 할 수 있다고 치더라도 내게 그걸 설정할 수 있게는 해줘야 될 것 아닌가?
+
+{{{more}}}

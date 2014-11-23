@@ -8,17 +8,19 @@
 * 논글
 ** DONE 판의미로
 ** TODO 피로사회
-** TODO 센터연락
+** DONE 센터연락
+** TODO 서평
 
 * 리더십
-** TODO 입금
-** TODO 연락
+** DONE 입금
+** DONE 연락
+** TODO 안나온, 숙제
 
 * 테스팅 숙제
-** TODO HW4
+** DONE HW5
 
 * 전프
-** TODO 사진
+** DONE 사진
 ** TODO 로봇코딩
 
 * 여행
@@ -31,7 +33,16 @@
 ** DONE 입금
 ** DONE 연락
 
-* TODO 교수님 메일답장
+* DONE 교수님 메일답장
 
+* elisp
+** key
+** tree
+** octopress
+*** commit log
+*** privacy level
+
+* coq?
+* sf, cpdt
 
 {{{more}}}
